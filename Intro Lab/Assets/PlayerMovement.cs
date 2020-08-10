@@ -25,6 +25,7 @@ public class PlayerMovement : MonoBehaviour
         if (collisionInfo.collider.tag == "Obstacle") {        
             bool RightOpen = collisionInfo.collider.gameObject.GetComponent<ObstacleInfo>().RightOpen;
             bool LeftOpen = collisionInfo.collider.gameObject.GetComponent<ObstacleInfo>().LeftOpen;
+            
             if (RightOpen || LeftOpen) {
                 Dodge(RightOpen, LeftOpen);
             }
