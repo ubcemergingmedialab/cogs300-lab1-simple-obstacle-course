@@ -1,17 +1,5 @@
 sceneSetups:
 - path: Assets/Scenes/Part1.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Scenes/Part1Final.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Scenes/Part2.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Scenes/Part2Final.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
